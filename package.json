@@ -1,0 +1,14 @@
+{
+  "name": "eth-play",
+  "version": "1.0.0",
+  "description": "Blockchain Playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Chatelain",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.1.32"
+  }
+}
