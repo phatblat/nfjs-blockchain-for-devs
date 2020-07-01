@@ -6,7 +6,7 @@ contract('Coin', (accounts) => {
     const c = await Coin.deployed();
     await c.mint(accounts[1], 1000);
 
-    var result = await c.send(accounts[2], 200);
+    var result = await c.send(accounts[2], 200, {from: accounts[1]});
     truffleAssert.eventEmitted(result, 'Sent');
 
     result = await c.getBalance(accounts[0]);
