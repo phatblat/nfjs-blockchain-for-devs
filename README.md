@@ -1,3 +1,6 @@
+# NFJS Blockchain for Developers
+
+Virtual workshop exercise from [NFJS](https://nofluffjuststuff.com/virtual-workshops).
 
 ## 📄 License
 
