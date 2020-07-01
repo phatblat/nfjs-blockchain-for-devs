@@ -9,6 +9,7 @@
   "author": "Ben Chatelain",
   "license": "ISC",
   "dependencies": {
-    "truffle": "^5.1.32"
+    "truffle": "^5.1.32",
+    "truffle-assertions": "^0.9.2"
   }
 }
